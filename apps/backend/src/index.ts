@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/ping', (req: Request, res: Response) => {
-  res.send('pong!');
+  res.send('pong! testing branch');
 });
 
 // example routes
